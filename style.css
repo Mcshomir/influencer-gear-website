@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #AAAAAA;
+}
+
+header {
+    margin: 90px 120px 0;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 10px 10px;
+    font-size: 20px;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.first-li {
+    flex-grow: .9;
+    display: flex;
+
+
+}
+
+
+.banner-details {
+    display: flex;
+
+}
+
+.part {
+    width: 50%;
+}
+
+.right {
+    background-image: url(images/circle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.right img {
+
+    width: 100%;
+}
+
+.left {
+
+    margin: 100px 80px;
+}
+
+.left p {
+    margin: 20px 0;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    color: white;
+    border-radius: 19px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+
+.btn:hover {
+    text-decoration: underline;
+
+}
+
+.icon {
+    margin: 0;
+    padding: 0;
+}
+
+/* main design style from here */
+
+
+main {
+    margin: 0 120px;
+    background-color: white;
+}
+
+/* compani logo design */
+
+.compani-logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.compani-logo div img {
+
+    align-items: center;
+
+}
+
+/* polular cullection style form here */
+.cullection-title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+}
+
+.cullection-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-row-gap: 20px;
+}
+
+.card {
+    padding: 10px;
+    width: 330px;
+
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+
+}
+
+.card-header img {
+    width: 100%;
+}
+
+.card-body {
+    padding: 15px 0;
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.icons {
+    margin-right: 10px;
+}
+
+.color {
+    color: #FB8200;
+    font-size: 10px;
+
+}
+
+.fa-star-half-stroke {
+    color: #FB8200;
+    font-size: 10px;
+}
+
+.rating {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+
+/* last section style form here */
+
+.last-section {
+    display: flex;
+    padding: 100px 0;
+    position: relative;
+
+}
+
+.side {
+    width: 50%;
+
+}
+
+.last {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+
+.first img {
+    width: 70%;
+    padding-left: 65px;
+}
+
+.last p {
+    padding: 20px 0;
+}
+
+.last-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+
+/* footer design style form here */
